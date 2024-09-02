@@ -1,0 +1,71 @@
+body {
+    font-size: 16px;
+    color: black;
+    font-family: "Comic Sans MS", sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {    
+    border-radius: 0;
+    border: 0;
+    color: greenyellow;
+    background-color: #bb9999;
+
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */    
+    color: black;
+    font-size: 1.5em;    
+    font-weight: bold;    
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+  #nav-list {
+    margin-top: 10px;    
+  }
+  #nav-list a {
+    color: black;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #cccccc;
+  }
+  
+  #collapsable-nav .navbar-nav > li {
+    border-bottom: 1px solid #ddd; /* Add bottom border */   
+  }
+
+  #collapsable-nav .navbar-nav > li:last-child {
+     border-bottom: none; /* Remove bottom border from last item */
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  .section {
+    flex-basis: 33.33%;
+    padding: 20px;
+    float: left;
+    position: relative;
+    box-sizing: border-box; /* Add this line */
+    margin-bottom: 20px; /* Add this line */    
+    background-color: lightgray; /* Add this line */
+    border: 20px solid white; /* Add this line */
+    height: 1000px;
+  }
+  /* END HEADER */
